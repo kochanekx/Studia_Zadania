@@ -1,0 +1,5 @@
+package Studia.WzorceProjektowe.Zad2.AbstractFactory;
+
+public interface Chair {
+    void sitOn();
+}
