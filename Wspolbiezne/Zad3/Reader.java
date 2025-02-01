@@ -12,11 +12,11 @@ public class Reader extends Thread {
     @Override
     public void run() {
         try {
-            controller.readerEnter(); // Wchodzi do sekcji krytycznej
+            controller.readerEnter();
             System.out.println("Reader " + readerId + " is reading...");
-            Thread.sleep(1000); // Symulacja czytania
+            Thread.sleep(1000);
             System.out.println("Reader " + readerId + " finished reading.");
-            controller.readerExit(); // Wychodzi z sekcji krytycznej
+            controller.readerExit();
         } catch (InterruptedException e) {
             System.err.println("Reader " + readerId + " was interrupted.");
         }

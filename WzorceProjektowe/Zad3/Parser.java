@@ -1,5 +1,7 @@
 package Studia.WzorceProjektowe.Zad3;
 
+import java.util.Optional;
+
 public interface Parser {
-    void parse(String input);
+    Optional<Object> parse(String input);
 }

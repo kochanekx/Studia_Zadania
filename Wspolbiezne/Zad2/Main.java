@@ -4,6 +4,21 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class Main {
+    /*
+Napisz program, który:
+
+Tworzy tablicę 1_000_000 losowych elementów typu int lub double
+Sortuje tablicę używając algorytmu quicksort i 1 zadania
+Sortuje tablicę uzywając algorytmu quicksort i niezależnych n(*) zadań (wątków)
+Gdyby się nie udało podejście z wykorzystaniem puli wątków(*), proszę tworzyć nowy wątek przy każdym zejściu rekurencyjnym i po prostu zliczać utworzone w ten sposób wątki w zmiennej n.
+Po każdym posortowaniu proszę napisać asercję/e celem upewnienia się, że nieposortowana na początku tablica stała się faktycznie posortowana.
+
+Jak zmienia się czas wykonania algorytmu dla zmieniającej się wartości n? Jak wyglądają czasy wykonania, kiedy ilość elementów w tablicy wynosi
+
+10_000_000
+10_000
+100
+ */
     private static int threadCount = 0;
 
     public static void main(String[] args) {

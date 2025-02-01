@@ -1,6 +1,7 @@
 package Studia.Wspolbiezne.Zad3;
 
 public class Main {
+    //Zrealizuj rozwiązanie problemu czytelników i pisarzy z wykorzystaniem semaforów
     public static void main(String[] args) {
         ReadersWritersController controller = new ReadersWritersController();
 

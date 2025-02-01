@@ -2,6 +2,7 @@ package Studia.Wspolbiezne.Zad2;
 
 import java.util.Arrays;
 
+
 public class QuickSort {
     public static int[] quicksort(int[] arr) {
         if (arr.length <= 1) {

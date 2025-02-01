@@ -1,6 +1,7 @@
 package Studia.Wspolbiezne.Zad5;
 
 public class Main {
+    //zmienic na dwa widele
     public static void main(String[] args) {
         final int NUMBER_OF_PHILOSOPHERS = 5;
         Monitor monitor = new Monitor(NUMBER_OF_PHILOSOPHERS);
